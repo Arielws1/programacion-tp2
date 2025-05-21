@@ -1,0 +1,29 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+form input{
+    margin-top:4px;
+    width: 10%;
+    display:flex;
+}
+
+form button{
+    height:30px;
+    width:10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
